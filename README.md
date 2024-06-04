@@ -6,7 +6,7 @@ This Stash App plugin sets a dynamic full-page background image in the Stash app
 
 ### Examples
 - [Example Image 1](/assets/example_img.JPG)
-- [Example Image 2](/assets/example_image1.jpg)
+- [Example Image 2](/assets/example_img1.JPG)
 - [Example GIF default theme](/assets/example_gif.gif)
 - [Example GIF Plex theme](/assets/example_plex.gif)
 
