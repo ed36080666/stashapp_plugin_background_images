@@ -5,8 +5,8 @@ Stash App plugin to display randomized background images from your collection in
 This Stash App plugin sets a dynamic full-page background image in the Stash app UI. Using images from your collection, this plugin will retrieve & set an image as the page background to add extra eye candy for loading states and general browsing. This plugin can be used with any Stash theme but works best with themes that utilize transparency for elements ([like my custom Plex theme](https://github.com/ed36080666/stashapp_theme_plex_redux)).
 
 ### Examples
-- [Example Image 1](/assets/example_img.JPG)
-- [Example Image 2](/assets/example_img1.JPG)
+- [Example Image 1 default theme](/assets/example_img.JPG)
+- [Example Image 2 Plex theme](/assets/example_img1.JPG)
 - [Example GIF default theme](/assets/example_gif.gif)
 - [Example GIF Plex theme](/assets/example_plex.gif)
 
