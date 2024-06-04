@@ -1,0 +1,29 @@
+name: "Plugin: Background Images"
+description: "Display randomized background images in the Stash app UI."
+version: 1.0.0
+ui:
+  css:
+    - background-image.css
+  javascript:
+    - background-image.js
+settings:
+  id:
+    displayName: Global Background Source ID
+    description: The ID for the entity containing the images to be retrieved (tag or gallery).
+    type: NUMBER
+  mode:
+    displayName: Global Background Gallery Mode
+    description: When set true, the ID will point to a gallery to retrieve images from. When set false, the ID will point to a tag to retrieve images.
+    type: BOOLEAN
+  performerPage:
+    displayName: Unique Performer Images (optional)
+    description: When set true, the performer page will attempt to retrieve a background image containing the performer. If no image containing the performer is found, no image will be displayed.
+    type: BOOLEAN
+  performerPageId:
+    displayName: Performer Source ID (optional)
+    description: When Unique Performer Images enabled, this ID can be used to select performer images from a different source than the global background images. If not set, will fallback to global ID.
+    type: NUMBER
+  performerPageEntity:
+    displayName: Performer Background Gallery Mode (optional)
+    description: When Unique Performer Images enabled, the Performer Source ID will point to a gallery to retrieve images from. When set false, the ID will point to a tag.
+    type: BOOLEAN

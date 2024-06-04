@@ -1,0 +1,29 @@
+/******************************
+ * Background Image
+ ******************************/
+:root {
+    --background-image: url('');
+    --background-opacity: 0.3;
+}
+
+#root:before {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center 10%;
+    opacity: var(--background-opacity);
+    content: '';
+    z-index: -1;
+}
+
+/* styles the view image button in nav */
+.background-image-plugin__view {
+    filter: grayscale(1);
+    opacity: 0.8;
+    transform: translateY(-1px);
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+- id: BackgroundImages
+  name: "Plex Theme Redux"
+  metadata:
+    description: "Stash app plugin to display full-page background images behind content pulled from your collection from tags or galleries."
+  version: 1.0.0
+  date: 2024-02-11 08:41:16
+  path: dist/plugin.zip
+  sha256: 30a9e74f4ef9d99315971854db4458ad2a6d72c8d0c5ae24bfe1deb27aba2bb7
